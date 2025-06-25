@@ -1,0 +1,9 @@
+<h2>Crear Parroquia</h2>
+
+<form action="" method="post">
+  {% csrf_token %}
+  {{ form.as_p }}
+  <p><input type="submit" value="Agregar"/></p>
+</form>
+
+<p>[<a href="{% url 'inicio' %}">inicio</a>]</p>
